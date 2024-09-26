@@ -1,4 +1,18 @@
-import Image from "next/image";
+import Header from "@/sections/Header";
+
+export default function Home() {
+  return <Header />;
+}
+
+
+
+
+
+
+
+
+
+/* import Image from "next/image";
 
 export default function Home() {
   return (
@@ -99,3 +113,4 @@ export default function Home() {
     </div>
   );
 }
+ */
