@@ -6,7 +6,7 @@ const NavBar = () => {
             <nav className={styles.container}>
                 <a href="">Accueil</a>
                 <a href="">Franck Mouette</a>
-                <a href="">Cabinet D'Ostéopathie</a>
+                <a href="">Cabinet D&aposOstéopathie</a>
                 <a href="">FAQ</a>
                 <a href="">Mes Conseils</a>
                 <a href="">Mes Articles</a>
