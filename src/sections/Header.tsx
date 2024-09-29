@@ -15,8 +15,8 @@ const Header = () => {
                 <div className={styles.header__logo}>
                     <Image
                         src={Logo}
-                        width={40}
-                        height={40}
+                        width={60}
+                        height={60}
                         alt="Logo du Centre des deux mains"
                     />
                 </div>
@@ -24,8 +24,8 @@ const Header = () => {
                 <div className={styles.header__menuIcon}>
                     <Image
                         src={MenuIcon}
-                        width={20}
-                        height={20}
+                        width={60}
+                        height={60}
                         alt="Menu Icon"
                     />
                 </div>
