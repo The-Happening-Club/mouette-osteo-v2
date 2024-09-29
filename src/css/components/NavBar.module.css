@@ -1,4 +1,4 @@
-.container {
+.nav {
     display: flex;
     gap: 24px;
     color: black;
@@ -6,7 +6,13 @@
     opacity: 60%;
 }
 
-.button {
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+.nav__button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -15,10 +21,14 @@
     padding: 8px 16px;
     border-radius: 25px;
     font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
+/* Styles: Tablet and Mobile */
 @media screen and (max-width: 991px) {
-    .container {
+    .nav {
         display: none;
     }
 }
