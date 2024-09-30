@@ -1,0 +1,100 @@
+.intro {
+    padding: 20px;
+}
+
+.intro__content {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro__title {
+    font-size: 32px;
+    line-height: 3rem;
+    font-weight: 700;
+    margin-top: 16px;
+    color: #5B4C37;
+}
+
+.intro__description {
+    font-size: 16px;
+    color: #5B4C37;
+    margin-top: 16px;
+}
+
+.intro__image {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles: Tablet (Portrait) */
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .intro__content {
+        display: block;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .intro__title {
+        font-size: 48px;
+        line-height: 4rem;
+        margin-top: 20px;
+    }
+
+    .intro__description {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .intro__image {
+        width: 80%;
+        margin: 30px auto;
+    }
+}
+
+/* Styles: Tablet (Landscape) and Desktop (992px and above) */
+@media screen and (min-width: 992px) {
+    .intro {
+        padding: 60px 20px;
+        position: relative; /* Content over the background image */
+        background-image: url('/deux-mains.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh; /* viewport height to show the full image */
+    }
+
+    .intro__content {
+        position: relative;
+        z-index: 2; /* Text above background image */
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8); /* translucend background */
+        padding: 40px;
+        border-radius: 8px;
+    }
+
+    .intro__title {
+        font-size: 80px;
+        line-height: 5rem;
+        font-weight: 700;
+        background-image: linear-gradient(to bottom, black, burlywood);
+        background-clip: text;
+        color: transparent;
+        margin-top: 24px;
+    }
+
+    .intro__description {
+        font-size: 20px;
+        color: #5B4C37;
+        margin-top: 24px;
+    }
+
+    .intro__image {
+        display: none;
+    }
+}

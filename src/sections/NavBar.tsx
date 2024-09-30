@@ -1,4 +1,4 @@
-import styles from "@/css/components/NavBar.module.css";
+import styles from "@/css/components/navbar.module.css";
 
 const NavBar = () => {
     return (

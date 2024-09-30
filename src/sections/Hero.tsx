@@ -1,4 +1,4 @@
-import styles from "@/css/components/Hero.module.css";
+import styles from "@/css/components/hero.module.css";
 import Image from "next/image";
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
                         <h3 className={styles.hero__subtitle}>Ostéopathe D.O</h3>
                         <p className={styles.hero__description}>
                             Diplômé en kinésithérapie et en ostéopathie depuis plus de 30 ans,
-                            j`&aposai ouvert en 2005 le Centre des Deux Mains.
+                            j&apos;ai ouvert en 2005 le Centre des Deux Mains.
                         </p>
                     </div>
                     <div className={styles.hero__image}>

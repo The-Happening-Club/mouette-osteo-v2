@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/css/components/Header.module.css";
+import styles from "@/css/components/header.module.css";
 import Image from "next/image";
 import Logo from "@/assets/logo_circle.png";
 import MenuIcon from "@/assets/hamburger-menu.png";
@@ -8,9 +8,9 @@ import NavBar from "./NavBar";
 const Header = () => {
     return (
         <header className={styles.header}>
-            <div className={styles.header__branding}>
-                <p className={styles.header__text}>Franck Mouette D.O</p>
-            </div>
+            {/* <div className={styles.header__branding}>
+                <p className={styles.header__text}>Centre des deux mains</p>
+            </div> */}
             <div className={styles.header__navigation}>
                 <div className={styles.header__logo}>
                     <Image
@@ -24,8 +24,8 @@ const Header = () => {
                 <div className={styles.header__menuIcon}>
                     <Image
                         src={MenuIcon}
-                        width={60}
-                        height={60}
+                        width={50}
+                        height={50}
                         alt="Menu Icon"
                     />
                 </div>

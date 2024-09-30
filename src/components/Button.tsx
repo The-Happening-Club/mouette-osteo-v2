@@ -7,7 +7,7 @@ interface IButton {
 }
 
 
-export const PrimaryButton:FC<IButton> = ( {title}) => {
+export const PrimaryButton:FC<IButton> = ({title}) => {
 
     return(
         <Link href="/" className={`${styles.button} ${styles.primary}`}>
@@ -15,7 +15,8 @@ export const PrimaryButton:FC<IButton> = ( {title}) => {
         </Link>
     )
 }
-export const SecondaryButton:FC<IButton> = ( {title}) => {
+
+export const SecondaryButton:FC<IButton> = ({title}) => {
 
     return(
         <Link href="/" className={`${styles.button} ${styles.secondary}`}>
@@ -23,9 +24,12 @@ export const SecondaryButton:FC<IButton> = ( {title}) => {
         </Link>
     )
 }
-export const TertiaryButton:FC<IButton> = ( {title}) => {
+
+export const TertiaryButton:FC<IButton> = ({title}) => {
 
     return(
-        <Link href="/">{title}</Link>
+        <Link href="/" className={`${styles.button} ${styles.tertiary}`}>
+            {title}
+        </Link>
     )
 }
